@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Outfit", sans-serif;
+    background-color: #f3e5d8;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.recipe-card {
+    background-color: white;
+    padding: 40px;
+    border-radius: 20px;
+    max-width: 736px;
+    width: 100%;
+
+}
+
+.hero-image {
+    border-radius: 12px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-family: "Young Serif", serif;
+    color: #2d2b2c;
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 24px;
+}
+
+.description {
+    line-height: 1.5;
+    margin-bottom: 32px;
+    color: hsl(30, 10%, 34%);
+}
+
+.prep-box {
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 12px;
+    padding: 28px;
+    margin-bottom: 32px;
+
+}
+
+.prep-box h3 {
+    color: hsl(332, 51%, 32%);
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+ul, ol {
+    padding-left: 24px;
+    color: hsl(30, 10%, 34%);
+}
+
+li {
+    padding-left: 16px;
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: "Young Serif", serif;
+    color: hsl(14, 45%, 36%);
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+hr {
+    border: 0;
+    border-top: 2px solid lightgray;
+    margin: 32px 0;
+    border-radius: 10px;
+}
+
+.nutrition p {
+    margin-bottom: 24px;
+    color: hsl(30, 10%, 34%);
+}
+
+.nutrition table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.nutrition tr {
+    border-bottom: 1px solid lightgray;
+    color: hsl(30, 10%, 34%);
+}
+
+.nutrition tr:last-child {
+    border-bottom: none;
+}
+
+.nutrition td {
+    padding: 12px 32px;
+}
+
+.nutrition td:last-child {
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
